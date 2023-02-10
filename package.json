@@ -1,6 +1,6 @@
 {
   "name": "wrangler-js-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use cloudflare wrangler programmatically instead of CLI + toml",
   "type": "module",
   "main": "index.js",
