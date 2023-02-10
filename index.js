@@ -23,6 +23,6 @@ export function publish(config = {}) {
   return run(config, ["publish"]);
 }
 
-export function preview(config = {}) {
-  return run(config, ["preview"]);
+export function dev(config = {}) {
+  return run(config, ["dev"]);
 }

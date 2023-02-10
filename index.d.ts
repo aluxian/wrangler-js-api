@@ -5,4 +5,4 @@ export { Environment } from "./wrangler";
 
 export function publish(config: Environment): ChildProcess;
 
-export function preview(config: Environment): ChildProcess;
+export function dev(config: Environment): ChildProcess;
