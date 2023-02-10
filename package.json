@@ -5,10 +5,16 @@
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
   "dependencies": {
     "@iarna/toml": "^2.2.5"
   },
   "devDependencies": {
+    "ava": "^5.2.0",
     "eslint": "^8.33.0",
     "prettier": "^2.8.4"
   },
